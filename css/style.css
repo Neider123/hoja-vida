@@ -1,0 +1,174 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav{
+    height: 15vh;
+}
+
+.na{
+    color: aliceblue;
+}
+
+footer{
+    position: absolute;
+    width: 100%;
+    margin: 0;
+}
+.subtitulo{
+    text-align: center;
+    font-weight: 300;
+    color: #a181cd;
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+
+.contenedor-servicio{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contenedor-servicio-ind{
+    display: block;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contenedor-servicio-ind img{
+    width: 20%;
+    height: 200px;
+}
+.services-ind{
+    margin-top: 15px;
+}
+.contenedor-servicio img{
+   width: 50%;
+}
+.checklist{
+    width: 45%;
+}
+.service{
+    margin-bottom: 20px;
+}
+
+.imagen{
+    margin: 20px;
+    align-items: center;
+}
+.imagen img{
+    border-radius: 30px;
+    height: 60%;
+}
+.contenido-bio{
+    width: 100%;
+    height:min-content;
+    display: block;
+    margin-top: 20px;
+}
+.biografia{
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+   
+}
+.number{
+    display: inline-block;
+    background-image: linear-gradient(to top,#a18cd1 0%,#fbc2eb 100%) ;
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    font-weight: 700;
+    line-height: 30px;
+}
+.contenedor-pro{
+    width: 100%;
+}
+.imagen-p{
+    width: 50%;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.info{
+    width: 90%;
+    height: auto;
+    background: #a181cd;
+    margin:5% auto;
+    padding:20px;
+    border-radius: 30px;
+}
+
+.info-b{
+    margin: 20px;
+    padding:20px;
+    border-radius: 30px;
+    width: 90%;
+    height: auto;
+    align-items: center;
+}
+
+.info .tituloSeccion{
+    color: #000000;
+    font-family: 'Fuente Serif 4', sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: 2px #000000 dashed;
+}
+.info .tituloInfo{
+    color: #ffffff;
+    font-family: 'Fuente Serif 4', sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 15px;
+    
+}
+.infoInfo{
+    color: #000000;
+    font-family: 'Fuente Serif 4', sans-serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+.lista li{
+    color: #000000;
+    font-family: 'Fuente Serif 4', sans-serif;
+    font-weight: normal;
+    font-size: large;
+}
+
+.bio{
+    display: flex;
+}
+
+.experts{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: auto;
+}
+
+.social-media-icon{
+    display: inline-block;
+    margin-left: 20px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #fff;
+    border-radius: 15%; /*redondee*/
+    text-align: center;
+    color: #fff;
+}
+
+.social-media{
+    margin-top: 5px;
+}
+
+
+
+
